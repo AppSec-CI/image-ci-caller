@@ -21,7 +21,7 @@ permissions:
   
 jobs:
   Scan:
-    uses: AppSec-CI/orca-image-ci-resuable-workflow/.github/workflows/orca-image-scan-resuable-workflow.yml@main
+    uses: AppSec-CI/image-ci-resuable-workflow/.github/workflows/orca-image-scan-resuable-workflow.yml@main
     with:
       project_key: slrk
       dockerfile-details: './Dockerfile'
